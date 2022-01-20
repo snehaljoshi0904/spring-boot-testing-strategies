@@ -1,5 +1,5 @@
 node{
-    def MAVEN_HOME = tool "MY_Maven"
+    def MAVEN_HOME = tool "My_Maven"
     def JAVA_HOME = tool "JAVA_HOME"
     env.PATH = "${env.PATH}:${MAVEN_HOME}/bin"
     env.PATH = "${env.PATH}:${JAVA_HOME}/bin"
