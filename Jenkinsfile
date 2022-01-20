@@ -7,7 +7,7 @@ stage('Checkout')  {
 
 stage('Initial Setup'){
 
-bat "C:\\apache-maven-3.6.0-bin\\apache-maven-3.6.0\\bin\\mvn clean compile"
+sh "mvn clean compile"
 }
 	
 
